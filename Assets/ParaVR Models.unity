@@ -231,7 +231,6 @@ GameObject:
   - component: {fileID: 59458660}
   - component: {fileID: 59458664}
   - component: {fileID: 59458663}
-  - component: {fileID: 59458661}
   m_Layer: 0
   m_Name: body visible
   m_TagString: bodybisible
@@ -253,20 +252,6 @@ Transform:
   m_Father: {fileID: 1617580812}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &59458661
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 59458659}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 66285629924c4bd40aca110739d75a27, type: 3}
 --- !u!23 &59458663
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -939,7 +924,7 @@ CapsuleCollider:
   m_Radius: 0.01
   m_Height: 1
   m_Direction: 2
-  m_Center: {x: 0.045, y: 0.005, z: -0.075}
+  m_Center: {x: 0.045, y: 0.005, z: 0.55}
 --- !u!1 &670505914
 GameObject:
   m_ObjectHideFlags: 0
@@ -1841,13 +1826,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1220961619}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.14780942, y: 0, z: 0, w: 0.9890159}
+  m_LocalPosition: {x: 0, y: 2, z: -7.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 17, y: 0, z: 0}
 --- !u!1 &1310909826
 GameObject:
   m_ObjectHideFlags: 0
@@ -2223,7 +2208,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 66285629924c4bd40aca110739d75a27, type: 3}
       propertyPath: m_TagString
-      value: Touchable
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 66285629924c4bd40aca110739d75a27, type: 3}
       propertyPath: m_RootOrder
@@ -2358,7 +2343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   effectType: 1
-  Gain: 0.3330000042915344
+  Gain: 1
   Magnitude: 0.3330000042915344
   Frequency: 200
   Position: {x: 0, y: 0, z: 0}
@@ -2377,11 +2362,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hlTouchModel: 0
   hlTouchable: 0
-  hlStiffness: 0.7
+  hlStiffness: 0.4
   hlDamping: 0.1
   hlStaticFriction: 0.2
   hlDynamicFriction: 0.3
-  hlPopThrough: 0
+  hlPopThrough: 0.05
   snapDistance: 1
 --- !u!1 &1645067036
 GameObject:
@@ -2696,7 +2681,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739873198}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0.55}
   m_LocalScale: {x: 0.12824066, y: 1.1396384, z: -0.066114865}
   m_Children:
   - {fileID: 1310909827}
