@@ -402,3 +402,4 @@ Received Import Request.
   path: Assets/Materials/Proxy_mat.mat
   artifactKey: Guid(1422e3934bbf00c469b446a83aff5c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/Proxy_mat.mat using Guid(1422e3934bbf00c469b446a83aff5c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c66eb769cdb18e31ca30711470f12d47') in 0.026068 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
